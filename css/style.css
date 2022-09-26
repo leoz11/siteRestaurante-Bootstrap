@@ -1,0 +1,149 @@
+.foto-burguer-secao {
+  margin-top: 30px;
+}
+
+.logo {
+  width: 80px;
+}
+
+#home {
+  color: white;
+}
+
+#cardapio-cards {
+  background-image: url(../img/pizza.png);
+  /*background-color: white;*/
+  background-size: cover;
+  border-top: 7px solid transparent;
+}
+
+#caixa {
+  background-image: url(../img/food.png);
+  background-size: cover;
+  height: 80vh;
+  border-top: 7px solid #23232e;
+  border-bottom: 7px solid #23232e;
+}
+
+.textos-caixa {
+  padding-top: 70px;
+}
+
+#caixa a:hover{
+  opacity: 60%; 
+  text-decoration: none;
+}
+
+.textos-section-home {
+  margin-top: 100px;
+}
+
+nav {
+  background: #23232e;
+}
+
+.card-hover:hover {
+  background: #252531;
+  transition: 0.3s;
+}
+
+nav button {
+  color: white;
+  border: 1px solid white;
+}
+
+nav a{
+  color: gold;
+}
+
+main {
+  background: url("../img/background.png") no-repeat center center;
+  background-size: cover;
+  height: 110vh;
+}
+
+@media screen and (max-width: 912px) {
+  nav {
+    width: 100%;
+  }
+}
+
+@media screen and (max-height: 1368px) {
+  nav {
+    width: 100%;
+  }
+}
+
+#navegacao li {
+  padding: 5px;
+}
+
+#navegacao a:hover{
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.container {
+  color: white;
+}
+
+.container a:hover{
+  transition: 0.3s;
+}
+
+.container button:hover{
+  transition: 0.3s;
+}
+
+.caixa {
+  padding: 60px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.tabela {
+  border-bottom: 2px solid black;
+}
+
+#rodape a{
+  color: inherit;
+  text-decoration: none;
+}
+
+#rodape a:hover {
+  color: #ffc107;
+  transition: 0.3s;
+}
+
+#rodape {
+  background-color: #23232e;
+}
+
+#cardapio-cards a:hover{
+  transition: 0.3s;
+}
+
+.cards-cardapio button a{
+  text-decoration: none;
+}
+
+.price-color {
+  color: green;
+}
+
+/********** WhatsApp botão *************/
+
+.whats { position: fixed; bottom: 30px; right: 20px; z-index: 9999;}
+
+
+/************** LOCALIZAÇÃO botão *************/
+
+.localizacao { position: fixed; bottom: 30px; right: 30px; z-index: 9999;}
+
+
+/************** Facebook botão *************/
+
+.facebook { position: fixed; bottom: 150px; right: 30px; z-index: 9999;}
+
+/************** Instagram botão *************/
+
+.instagram { position: fixed; bottom: 205px; right: 25px; z-index: 9999;}
